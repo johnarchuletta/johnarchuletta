@@ -1,0 +1,16 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "John Archuletta",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {}
+}
