@@ -1,7 +1,7 @@
 {
-  "name": "node-express-boilerplate",
+  "name": "johnarchuletta",
   "version": "1.0.0",
-  "description": "",
+  "description": "An empty ExpressJS project to be used as a starting point for projects.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js"
@@ -9,8 +9,14 @@
   "author": "John Archuletta",
   "license": "ISC",
   "dependencies": {
+    "animejs": "^1.0.0",
+    "body-parser": "^1.15.2",
     "ejs": "^2.4.2",
     "express": "^4.14.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
 }

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Admin</title>
+        <base href="/">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/admin.css" type="text/css">
+    </head>
+    <body onload="pageLoaded()">
+        <div id="admin-login-panel">
+            <div id="admin-login-title">
+                <h1>Admin Login</h1>
+            </div>
+            <% if (locals.loginFailed) { %>
+            <p style="text-align: center; color: red;">Login Failed.</p>
+            <% } %>
+            <form id="admin-login" method="POST">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="admin-username">Username</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" id="admin-username" name="username" class="form-control login-input">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="admin-password">Password</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="password" id="admin-password" name="password" class="form-control login-input">
+                    </div>
+                </div>
+                <div id="admin-login-bottom" class="row">
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-default" value="Login">
+                    </div>
+                </div>
+            </form>
+            <script src="js/admin.js"></script>
+        </div>
+    </body>
+</html>

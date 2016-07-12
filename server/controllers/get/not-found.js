@@ -1,3 +1,3 @@
 module.exports = function(req, res) {
-    res.render('notFound');
+    res.render('not-found.html');
 };
