@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=Abel|Roboto:400,700|Roboto+Mono';
+label {
+  font-weight: normal;
+  text-align: right;
+  display: block; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -1px;
+  font-size: 20px;
+  color: #303030;
+  background: #d3d3d3;
+  padding: 100px; }
+
+/*# sourceMappingURL=admin-common.css.map */
