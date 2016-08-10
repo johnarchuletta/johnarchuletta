@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a82a4e16-fa10-44b7-a074-8c98d1767318" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-login.css" afterPath="$PROJECT_DIR$/public/css/admin-login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-login.css.map" afterPath="$PROJECT_DIR$/public/css/admin-login.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-main.css" afterPath="$PROJECT_DIR$/public/css/admin-main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-main.css.map" afterPath="$PROJECT_DIR$/public/css/admin-main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/common.sass" afterPath="$PROJECT_DIR$/public/css/common.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css.map" afterPath="$PROJECT_DIR$/public/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/views/index.jade" afterPath="$PROJECT_DIR$/server/views/index.jade" />
     </list>
     <ignored path="ja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +34,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.66751915">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.42209944">
+        <splitter split-orientation="vertical" split-proportion="0.5889503">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="admin-main.js" pinned="false" current-in-tab="false">
@@ -80,21 +87,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/server/server.js">
+              <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/server/views/index.jade">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="database.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/server/database.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="195">
-                      <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+                    <state relative-caret-position="90">
+                      <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
                       <folding />
                     </state>
                   </provider>
@@ -208,11 +205,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="admin-main.sass" pinned="false" current-in-tab="true">
+          <file leaf-file-name="admin-main.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/admin-main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-133">
-                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                <state relative-caret-position="212">
+                  <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -228,31 +225,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="common.sass" pinned="false" current-in-tab="false">
+          <file leaf-file-name="common.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/common.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/css/main.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -301,11 +278,9 @@
         <option value="$PROJECT_DIR$/server/controllers/not-found.js" />
         <option value="$PROJECT_DIR$/server/views/not-found.jade" />
         <option value="$PROJECT_DIR$/server/controllers/index.js" />
-        <option value="$PROJECT_DIR$/server/views/index.jade" />
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/public/css/main.sass" />
         <option value="$PROJECT_DIR$/public/css/admin-common.sass" />
-        <option value="$PROJECT_DIR$/public/css/common.sass" />
         <option value="$PROJECT_DIR$/public/js/admin-login.js" />
         <option value="$PROJECT_DIR$/server/views/admin-login.jade" />
         <option value="$PROJECT_DIR$/server/views/includes/head.jade" />
@@ -327,6 +302,8 @@
         <option value="$PROJECT_DIR$/server/controllers/admin-login.js" />
         <option value="$PROJECT_DIR$/public/css/admin-main.sass" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/views/index.jade" />
+        <option value="$PROJECT_DIR$/public/css/common.sass" />
       </list>
     </option>
   </component>
@@ -444,6 +421,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,12 +643,12 @@
       <workItem from="1470010125397" duration="5320000" />
       <workItem from="1470286642371" duration="35811000" />
       <workItem from="1470857027055" duration="227000" />
-      <workItem from="1470835914037" duration="2387000" />
+      <workItem from="1470835914037" duration="2571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209383000" />
+    <option name="totallyTimeSpent" value="209567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="24" width="1879" height="1176" extended-state="6" />
@@ -744,26 +739,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin-main.sass" />
     <entry file="file://$PROJECT_DIR$/public/css/admin.css" />
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin-common.sass" />
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin.html" />
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin-login.sass" />
-    <entry file="file://$PROJECT_DIR$/public/css/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/admin-common.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -773,14 +753,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin-login.html" />
-    <entry file="file://$PROJECT_DIR$/public/css/common.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/schemas/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -857,35 +829,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/npm-debug.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/admin-information.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -938,22 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/admin-main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/controllers/admin-login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -966,6 +898,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/admin-information.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/admin-main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/common.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
