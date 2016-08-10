@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 
-var dbUrl = 'mongodb://arc:foobar@localhost/ja';
+var url = process.env.MONGO_URL || 'mongodb://arc:foobar@localhost/ja';
 var db = mongoose.connection;
 
-mongoose.connect(dbUrl);
+mongoose.connect(url);
 
 db.on('error', function () {
     console.log('Could not connect to MongoDB.');

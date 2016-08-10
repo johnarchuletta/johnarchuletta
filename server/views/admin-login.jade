@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        include ./includes/head.jade
+        link(rel='stylesheet', href='css/admin-login.css')
+    body
+        .admin-panel-container.center-block
+            .admin-panel-title
+                span Admin Login
+            .admin-panel-content
+                form(id='login-form', method='post')
+                    .row
+                        .col-md-3
+                            label(for='username') Username:
+                        .col-md-9
+                            input(type='text', name='username', id='username').form-control
+                    .row
+                        .col-md-3
+                            label(for='password') Password:
+                        .col-md-9
+                            input(type='password', name='password', id='password').form-control
+                    .row
+                        .col-md-12.text-right
+                            input(type='hidden', name='action', value='login')
+                            input(id='login-button', type='submit', value='Login').btn.btn-primary
+                    .row
+                        .col-md-12
+                            if error
+                                p(style='padding: 10px; border-radius: 4px;').bg-danger.text-center #{message}
+                            p#error.bg-danger.text-center
+        script(src='js/admin-login.js')

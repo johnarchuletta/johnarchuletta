@@ -6,11 +6,17 @@
       <w>animejs</w>
       <w>autoplay</w>
       <w>dashoffset</w>
+      <w>dest</w>
+      <w>enctype</w>
       <w>expressjs</w>
+      <w>filenames</w>
+      <w>multer</w>
       <w>nodejs</w>
       <w>onkeyup</w>
       <w>onreadystatechange</w>
       <w>onscroll</w>
+      <w>onsubmit</w>
+      <w>textarea</w>
     </words>
   </dictionary>
 </component>

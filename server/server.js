@@ -1,21 +1,32 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var session = require('express-session');
+var fs = require('fs');
 var path = require('path');
 
 var port = process.env.PORT || 8080;
+var sessionSecret = process.env.SESSION_SECRET || 'secret';
 var server = express();
 
 var sessionOptions = {
-    secret: '32980hiofubn23f987ghv',
+    secret: sessionSecret,
     resave: false,
-    saveUninitialized: true
+    saveUninitialized: true,
+    cookie: {
+        maxAge: 60000*60
+    }
 };
 
-server.set('view engine', 'html');
-server.set('views', path.join(process.cwd(), 'server/views'));
+fs.stat('./public/uploads', function(err, stats) {
+    if (err) {
+        fs.mkdir('./public/uploads', function(err){
+            if (!err) console.log('Uploads folder created.');
+        });
+    }
+});
 
-server.engine('html', require('ejs').renderFile);
+server.set('view engine', 'jade');
+server.set('views', path.join(process.cwd(), 'server/views'));
 
 server.use(session(sessionOptions));
 server.use(express.static('public'));

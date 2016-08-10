@@ -1,0 +1,86 @@
+doctype html
+html
+    head
+        include ./includes/head.jade
+        link(rel='stylesheet', href='/css/admin-main.css')
+    body
+        main
+            header.text-center
+                h2 John Archuletta
+                p WEB ADMIN PANEL
+            nav.text-center
+                a(href='/admin') Blog
+                a(href='/admin/portfolio', class='active-section') Portfolio
+                a(href='/admin/information') Information
+                a(href='/admin/?action=logout') Logout
+            section#blog-new.admin-section
+                form(id='portfolio-new-form', method='POST', action='/admin/portfolio/create', enctype='multipart/form-data')
+                    .row.admin-form-row
+                        .col-md-3
+                            label(for='portfolio-new-title') Title
+                        .col-md-9
+                            input(id='portfolio-new-title', name='title').form-control
+                    .row.admin-form-row
+                        .col-md-3
+                            label(for='portfolio-new-date') Date
+                        .col-md-9
+                            input(id='portfolio-new-date', name='date').form-control
+                    .row.admin-form-row
+                        .col-md-3
+                            label(for='portfolio-new-keywords') Keywords
+                        .col-md-9
+                            input(id='portfolio-new-keywords', name='keywords').form-control
+                    .row.admin-form-row
+                        .col-md-3
+                            label(for='portfolio-new-body') Body
+                        .col-md-9
+                            textarea(id='portfolio-new-body', name='body', rows='10').form-control
+                    .row.admin-form-row
+                        .col-md-3
+                            label(for='portfolio-new-image') Image
+                        .col-md-9
+                            input(type='file', id='portfolio-new-image', name='images', multiple='true')
+                    .row.admin-form-row
+                        #blog-new-submit-row.col-md-12.text-right
+                            input(type='submit', value='Submit', id='portfolio-new-submit')
+            section.admin-section-spacer
+            each project in projects
+                section.blog-edit.admin-section
+                    form(id='portfolio-edit-form', method='POST', action='/admin/portfolio/update', enctype='multipart/form-data')
+                        .row.admin-form-row
+                            .col-md-3
+                                label(for='portfolio-edit-title-#{project._id}') Title
+                            .col-md-9
+                                input(id='portfolio-edit-title-#{project._id}', name='title', value='#{project.title}').form-control
+                        .row.admin-form-row
+                            .col-md-3
+                                label(for='portfolio-edit-date-#{project._id}') Date
+                            .col-md-9
+                                input(id='portfolio-edit-date-#{project._id}', name='date', value='#{project.date}').form-control
+                        .row.admin-form-row
+                            .col-md-3
+                                label(for='portfolio-edit-keywords-#{project._id}') Keywords
+                            .col-md-9
+                                input(id='portfolio-edit-keywords-#{project._id}', name='keywords', value='#{project.keywords}').form-control
+                        .row.admin-form-row
+                            .col-md-3
+                                label(for='portfolio-edit-body-#{project._id}') Body
+                            .col-md-9
+                                textarea(id='portfolio-edit-body-#{project._id}', name='body', rows='10').form-control #{project.body}
+                        .row.admin-form-row
+                            .col-md-3
+                                label(for='portfolio-new-image-#{project._id}') Image
+                            .col-md-9
+                                each image in project.images
+                                    a(href='/uploads/#{image}')
+                                        img(src='/uploads/#{image}', style='max-width: 100%;')
+                                input(type='file', id='portfolio-new-image-#{project._id}', name='images', multiple='true')
+                                input(type='hidden', name='image-filenames' value='#{project.images}')
+                        .row.admin-form-row
+                            .col-md-12.text-right
+                                a(href='/admin/portfolio/delete/#{project._id}') Delete
+                                span &nbsp;&nbsp;&nbsp;&nbsp;
+                                input(type='hidden', name='id' value='#{project.id}')
+                                input(type='submit', value='Update')
+                section.admin-section-spacer
+        script(src='/js/admin-portfolio.js')

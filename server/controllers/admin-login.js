@@ -1,4 +1,3 @@
-var mongoose = require('mongoose');
 var User = require('../schemas/user.js');
 
 module.exports = {
@@ -6,25 +5,31 @@ module.exports = {
         if (req.session.user) {
             res.redirect('admin');
         } else {
-            req.session.user = false;
-            res.render('admin-login.html');
+            res.render('admin-login');
         }
     },
     post: function (req, res) {
+        console.log(req.body);
         var action = req.body.action;
     
         if (action === 'login') {
             var username = req.body.username;
             var password = req.body.password;
-    
-            User.findOne({username: username, password: password}, function (err, user) {
-                if (user) {
-                    req.session.user = true;
-                    res.redirect('admin');
-                } else {
-                    res.render('admin-login.html', {loginFailed: true});
-                }
-            });
+            
+            // TODO: Create hash of password.
+            
+            if (username != '' && username.length > 3 && password != '' && password.length > 3) {
+                User.findOne({username: username, password: password}, function (err, user) {
+                    if (user) {
+                        req.session.user = user;
+                        res.redirect('admin');
+                    } else {
+                        res.render('admin-login', {error: true, message: 'Login failed [1].'});
+                    }
+                });
+            } else {
+                res.render('admin-login', {error: true, message: 'Login failed [2].'});
+            }
         }
     }
 };

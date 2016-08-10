@@ -1,0 +1,69 @@
+@import 'admin-common.sass'
+
+body
+  background: #1f1f1f
+  color: #ededed
+  main
+    max-width: 500px
+    min-height: 100vh
+    margin: 0 auto
+    padding: 50px 0 50px 0
+    //border: 1px solid #3b3b3b
+    header
+      p
+        font-size: 14px
+        color: #646464
+        margin: -4px 0 0 0
+        letter-spacing: 1px
+    nav
+      margin: 25px 0
+      border-top: 2px solid #464646
+      border-bottom: 2px solid #464646
+      a, a:visited
+        display: inline-block
+        padding: 5px 0
+        color: #bebebe
+        margin: 0 50px 0 0
+      a:hover, a:active, a:focus, a.active-section
+        color: #ff6c36
+        text-decoration: none
+        padding: 2px 0
+        border-bottom: 3px solid #464646
+      a:last-of-type
+        margin: 0
+    section.admin-section-spacer
+      margin: 25px 0
+      height: 2px
+      background: #464646
+    section.admin-section-spacer:last-of-type
+      display: none
+    section.admin-section
+      a, a:visited
+        display: inline-block
+        padding: 5px 0
+        color: #bebebe
+      a:hover, a:active, a:focus
+        color: #ff6421
+        text-decoration: none
+        padding: 5px 0
+      .row.admin-form-row
+        margin-top: 10px
+        margin-bottom: 10px
+      label
+        font-weight: 400
+        color: #bebebe
+        line-height: 34px
+      input, textarea
+        resize: none
+        color: #fff
+        background: transparent
+        border-radius: 0
+        border: 1px solid #464646
+      input:focus, textarea:focus
+        box-shadow: none
+        border: 1px solid #464646
+      input[type='submit'], input[type='button']
+        color: #bebebe
+        padding: 5px 20px
+      input[type='submit']:hover, input[type='button']:hover
+        color: #fff

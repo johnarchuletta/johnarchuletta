@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Abel|Roboto:400,700|Roboto+Mono';
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #303030;
+  background: #fff;
+  padding: 0; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p, body label, body input {
+    padding: 0;
+    margin: 0; }
+
+body {
+  background: #e8e8e8; }
+
+body {
+  background: #1f1f1f;
+  color: #ededed; }
+  body main {
+    max-width: 500px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 50px 0 50px 0; }
+    body main header p {
+      font-size: 14px;
+      color: #646464;
+      margin: -4px 0 0 0;
+      letter-spacing: 1px; }
+    body main nav {
+      margin: 25px 0;
+      border-top: 2px solid #464646;
+      border-bottom: 2px solid #464646; }
+      body main nav a, body main nav a:visited {
+        display: inline-block;
+        padding: 5px 0;
+        color: #bebebe;
+        margin: 0 50px 0 0; }
+      body main nav a:hover, body main nav a:active, body main nav a:focus, body main nav a.active-section {
+        color: #ff6c36;
+        text-decoration: none;
+        padding: 2px 0;
+        border-bottom: 3px solid #464646; }
+      body main nav a:last-of-type {
+        margin: 0; }
+    body main section.admin-section-spacer {
+      margin: 25px 0;
+      height: 2px;
+      background: #464646; }
+    body main section.admin-section-spacer:last-of-type {
+      display: none; }
+    body main section.admin-section a, body main section.admin-section a:visited {
+      display: inline-block;
+      padding: 5px 0;
+      color: #bebebe; }
+    body main section.admin-section a:hover, body main section.admin-section a:active, body main section.admin-section a:focus {
+      color: #ff6421;
+      text-decoration: none;
+      padding: 5px 0; }
+    body main section.admin-section .row.admin-form-row {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body main section.admin-section label {
+      font-weight: 400;
+      color: #bebebe;
+      line-height: 34px; }
+    body main section.admin-section input, body main section.admin-section textarea {
+      resize: none;
+      color: #fff;
+      background: transparent;
+      border-radius: 0;
+      border: 1px solid #464646; }
+    body main section.admin-section input:focus, body main section.admin-section textarea:focus {
+      box-shadow: none;
+      border: 1px solid #464646; }
+    body main section.admin-section input[type='submit'], body main section.admin-section input[type='button'] {
+      color: #bebebe;
+      padding: 5px 20px; }
+    body main section.admin-section input[type='submit']:hover, body main section.admin-section input[type='button']:hover {
+      color: #fff; }
+
+/*# sourceMappingURL=admin-main.css.map */

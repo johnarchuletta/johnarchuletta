@@ -1,24 +1,30 @@
-function pageLoaded() {
-    if (sessionStorage.getItem('username') === null) {
-        console.log('User not logged in.');
-    } else {
-        console.log('User logged in.');
-    }
-}
+'use strict';
 
-function loginKeyUp(event) {
-    if (event.key === 'Enter') login();
-}
-
-function login() {
-    var req = new XMLHttpRequest();
-    req.open('POST', 'http://localhost:8081/');
-    req.setRequestHeader('Content-Type', 'application/json');
-    req.send(JSON.stringify({
-        username: document.querySelector('#admin-username').value,
-        password: document.querySelector('#admin-password').value
-    }));
-    req.onload = function() {
-        console.log(JSON.parse(req.responseText).success);
+(function() {
+    window.onload = function() {
+        console.log('admin-login.js loaded');
+        document.getElementById('login-form').onsubmit = function() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            if (username === '') {
+                showError('Error: Could not login.');
+                return false;
+            } else if (username.length < 3) {
+                showError('Error: Could not login.');
+                return false;
+            } else if (password === '') {
+                showError('Error: Could not login.');
+                return false;
+            } else if (password.length < 3) {
+                showError('Error: Could not login.');
+                return false;
+            }
+        }
     };
-}
+    
+    function showError(msg) {
+        var el = document.getElementById('error');
+        el.style.transform = 'scaleY(1)';
+        el.innerHTML = msg;
+    }
+})();

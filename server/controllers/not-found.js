@@ -1,5 +1,5 @@
 module.exports = {
     get: function (req, res) {
-        res.render('not-found.html');
+        res.render('not-found');
     }
 };
