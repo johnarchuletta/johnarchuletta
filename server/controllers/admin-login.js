@@ -18,7 +18,7 @@ module.exports = {
             
             // TODO: Create hash of password.
             
-            if (username != '' && username.length > 3 && password != '' && password.length > 3) {
+            if (username != '' && username.length > 2 && password != '' && password.length > 2) {
                 User.findOne({username: username, password: password}, function (err, user) {
                     if (user) {
                         req.session.user = user;

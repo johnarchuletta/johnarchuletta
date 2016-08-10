@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var url = process.env.MONGO_URL || 'mongodb://arc:foobar@localhost/ja';
+var url = process.env.MONGO_URL || 'mongodb://localhost/ja';
 var db = mongoose.connection;
 
 mongoose.connect(url);

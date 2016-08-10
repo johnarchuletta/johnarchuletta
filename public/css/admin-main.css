@@ -76,5 +76,7 @@ body {
       padding: 5px 20px; }
     body main section.admin-section input[type='submit']:hover, body main section.admin-section input[type='button']:hover {
       color: #fff; }
+    body main section.admin-section input[type='file'] {
+      border: none; }
 
 /*# sourceMappingURL=admin-main.css.map */

@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82a4e16-fa10-44b7-a074-8c98d1767318" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/arc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-main.css" afterPath="$PROJECT_DIR$/public/css/admin-main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-main.css.map" afterPath="$PROJECT_DIR$/public/css/admin-main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin-main.sass" afterPath="$PROJECT_DIR$/public/css/admin-main.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/admin-information.js" afterPath="$PROJECT_DIR$/server/controllers/admin-information.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/admin-login.js" afterPath="$PROJECT_DIR$/server/controllers/admin-login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/database.js" afterPath="$PROJECT_DIR$/server/database.js" />
     </list>
     <ignored path="ja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,15 +33,15 @@
     <favorites_list name="ja" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.68289715">
+    <splitter split-orientation="horizontal" split-proportion="0.66751915">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.44516128">
+        <splitter split-orientation="vertical" split-proportion="0.45627803">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="admin-main.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/public/js/admin-main.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="154">
+                    <state relative-caret-position="0">
                       <caret line="11" column="66" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
                       <folding />
                     </state>
@@ -42,7 +51,7 @@
               <file leaf-file-name="admin-portfolio.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/public/js/admin-portfolio.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="294">
+                    <state relative-caret-position="0">
                       <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
                       <folding />
                     </state>
@@ -52,17 +61,17 @@
               <file leaf-file-name="admin.jade" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/views/admin.jade">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="672">
+                    <state relative-caret-position="0">
                       <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="58" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="admin-portfolio.jade" pinned="false" current-in-tab="true">
+              <file leaf-file-name="admin-portfolio.jade" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/views/admin-portfolio.jade">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="251">
+                    <state relative-caret-position="0">
                       <caret line="76" column="121" selection-start-line="76" selection-start-column="121" selection-end-line="76" selection-end-column="121" />
                       <folding />
                     </state>
@@ -72,8 +81,28 @@
               <file leaf-file-name="admin-information.jade" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/views/admin-information.jade">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="196">
-                      <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                    <state relative-caret-position="0">
+                      <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/server/server.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="database.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/server/database.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="195">
+                      <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
                       <folding />
                     </state>
                   </provider>
@@ -86,7 +115,7 @@
               <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/routes.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="840">
+                    <state relative-caret-position="0">
                       <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
                       <folding />
                     </state>
@@ -96,22 +125,23 @@
               <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/controllers/admin.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="644">
+                    <state relative-caret-position="0">
                       <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
                       <folding>
                         <element signature="e#93#901#0" expanded="false" />
                         <element signature="e#933#1976#0" expanded="false" />
+                        <element signature="e#2007#3330#0" expanded="false" />
                         <element signature="e#3364#3755#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="admin-portfolio.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="admin-portfolio.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/controllers/admin-portfolio.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="286">
-                      <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+                    <state relative-caret-position="0">
+                      <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
                       <folding>
                         <element signature="e#99#544#0" expanded="false" />
                         <element signature="e#2236#2630#0" expanded="false" />
@@ -123,7 +153,7 @@
               <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/schemas/project.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="350">
+                    <state relative-caret-position="0">
                       <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
                       <folding />
                     </state>
@@ -133,8 +163,18 @@
               <file leaf-file-name="admin-information.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/controllers/admin-information.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="168">
-                      <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+                    <state relative-caret-position="0">
+                      <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="admin-login.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/server/controllers/admin-login.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="210">
+                      <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
                       <folding />
                     </state>
                   </provider>
@@ -143,7 +183,7 @@
               <file leaf-file-name="info.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/schemas/info.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="350">
+                    <state relative-caret-position="0">
                       <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
                       <folding />
                     </state>
@@ -159,18 +199,18 @@
           <file leaf-file-name="admin-login.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/admin-login.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+                <state relative-caret-position="-9">
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="admin-main.sass" pinned="false" current-in-tab="false">
+          <file leaf-file-name="admin-main.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/admin-main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="658">
-                  <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+                <state relative-caret-position="-133">
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -179,7 +219,7 @@
           <file leaf-file-name="admin-common.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/admin-common.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
+                <state relative-caret-position="0">
                   <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
                   <folding />
                 </state>
@@ -189,7 +229,7 @@
           <file leaf-file-name="common.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/common.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
+                <state relative-caret-position="0">
                   <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
                   <folding />
                 </state>
@@ -209,26 +249,10 @@
           <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
+                <state relative-caret-position="0">
                   <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
                   <folding />
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="0">
-                    <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-              <provider editor-type-id="MarkdownFxPreviewEditor">
-                <state />
               </provider>
             </entry>
           </file>
@@ -253,7 +277,6 @@
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/server/controllers.js" />
         <option value="$PROJECT_DIR$/server/server2.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/controllers/adminLogin.js" />
         <option value="$PROJECT_DIR$/server/controllers/get/adminLogin.js" />
         <option value="$PROJECT_DIR$/server/controllers/post/adminLogin.js" />
@@ -271,7 +294,6 @@
         <option value="$PROJECT_DIR$/hasher.js" />
         <option value="$PROJECT_DIR$/server/views/admin-login.html" />
         <option value="$PROJECT_DIR$/server/schemas/user.js" />
-        <option value="$PROJECT_DIR$/server/database.js" />
         <option value="$PROJECT_DIR$/server/views/admin.html" />
         <option value="$PROJECT_DIR$/server/views/jade.jade" />
         <option value="$PROJECT_DIR$/server/controllers/not-found.js" />
@@ -283,15 +305,11 @@
         <option value="$PROJECT_DIR$/public/css/admin-common.sass" />
         <option value="$PROJECT_DIR$/public/css/common.sass" />
         <option value="$PROJECT_DIR$/public/js/admin-login.js" />
-        <option value="$PROJECT_DIR$/public/css/admin-login.sass" />
-        <option value="$PROJECT_DIR$/server/controllers/admin-login.js" />
         <option value="$PROJECT_DIR$/server/views/admin-login.jade" />
         <option value="$PROJECT_DIR$/server/views/includes/head.jade" />
         <option value="$PROJECT_DIR$/server/schemas/project.js" />
         <option value="$PROJECT_DIR$/server/schemas/post.js" />
-        <option value="$PROJECT_DIR$/public/css/admin-main.sass" />
         <option value="$PROJECT_DIR$/server/schemas/info.js" />
-        <option value="$PROJECT_DIR$/server/controllers/admin-information.js" />
         <option value="$PROJECT_DIR$/server/views/admin-information.jade" />
         <option value="$PROJECT_DIR$/public/js/admin-main.js" />
         <option value="$PROJECT_DIR$/public/js/admin-portfolio.js" />
@@ -301,6 +319,12 @@
         <option value="$PROJECT_DIR$/server/views/admin-portfolio.jade" />
         <option value="$PROJECT_DIR$/server/controllers/admin-portfolio.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server/database.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/controllers/admin-information.js" />
+        <option value="$PROJECT_DIR$/public/css/admin-login.sass" />
+        <option value="$PROJECT_DIR$/server/controllers/admin-login.js" />
+        <option value="$PROJECT_DIR$/public/css/admin-main.sass" />
       </list>
     </option>
   </component>
@@ -318,10 +342,10 @@
     <scope name="ja-scope" pattern="file[ja]:public/js/*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="22" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="x" value="41" />
+    <option name="y" value="24" />
+    <option name="width" value="1879" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -389,7 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,6 +442,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="johnarchuletta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,10 +525,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -464,7 +538,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/bin/ruby" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://A:/Projects/Web-Development/johnarchuletta/public/js/main.js" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -537,7 +611,7 @@
       <scripts>
         <script value="start" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="/usr/bin/nodejs" />
       <envs />
       <method />
     </configuration>
@@ -590,34 +664,35 @@
       <workItem from="1470010125397" duration="5320000" />
       <workItem from="1470286642371" duration="35811000" />
       <workItem from="1470857027055" duration="227000" />
+      <workItem from="1470835914037" duration="1624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206996000" />
+    <option name="totallyTimeSpent" value="208620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
+    <frame x="41" y="24" width="1879" height="1176" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13435195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16764237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19314939" sideWeight="0.56480503" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15097857" sideWeight="0.5077169" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32953465" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16868593" sideWeight="0.49228314" order="11" side_tool="false" content_ui="tabs" x="1920" y="564" width="605" height="636" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.20231824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14652711" sideWeight="0.5057956" order="9" side_tool="true" content_ui="tabs" x="1149" y="343" width="605" height="533" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16868593" sideWeight="0.5077169" order="9" side_tool="true" content_ui="tabs" x="1149" y="343" width="605" height="533" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="false" weight="0.17259787" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26260704" sideWeight="0.49420443" order="11" side_tool="false" content_ui="tabs" x="1920" y="564" width="605" height="636" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19056262" sideWeight="0.48958334" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -641,13 +716,6 @@
     <entry file="file://$PROJECT_DIR$/server/controllers.js" />
     <entry file="file://$PROJECT_DIR$/mongo.js" />
     <entry file="file://$PROJECT_DIR$/m.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/controllers/post/admin-login.js" />
     <entry file="file://$PROJECT_DIR$/public/css/admin-commin.sass" />
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin-common.css" />
@@ -661,21 +729,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/node_modules/multer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-error.js" />
     <entry file="file://$PROJECT_DIR$/server/views/jade.jade" />
     <entry file="file://$PROJECT_DIR$/server/controllers/not-found.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -727,40 +782,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/admin-common.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="0">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/!old-views/admin-login.html" />
-    <entry file="file://$PROJECT_DIR$/server/controllers/admin-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/common.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="0">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/admin-login.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -768,21 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/admin-main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -795,16 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/schemas/info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="0">
           <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/admin-information.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -820,21 +830,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/admin-information.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/admin-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="0">
           <caret line="11" column="66" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
@@ -842,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/admin-portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="0">
           <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding />
         </state>
@@ -850,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/views/admin.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="0">
           <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="58" />
           <folding />
         </state>
@@ -858,44 +859,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="0">
           <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/admin.js">
+    <entry file="file://$PROJECT_DIR$/server/views/admin-portfolio.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
-          <folding>
-            <element signature="e#93#901#0" expanded="false" />
-            <element signature="e#933#1976#0" expanded="false" />
-            <element signature="e#3364#3755#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="76" column="121" selection-start-line="76" selection-start-column="121" selection-end-line="76" selection-end-column="121" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/admin-portfolio.jade">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="76" column="121" selection-start-line="76" selection-start-column="121" selection-end-line="76" selection-end-column="121" />
+        <state relative-caret-position="0">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/admin-information.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/schemas/project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="0">
           <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+          <folding>
+            <element signature="e#93#901#0" expanded="false" />
+            <element signature="e#933#1976#0" expanded="false" />
+            <element signature="e#2007#3330#0" expanded="false" />
+            <element signature="e#3364#3755#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/controllers/admin-portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
           <folding>
             <element signature="e#99#544#0" expanded="false" />
             <element signature="e#2236#2630#0" expanded="false" />
@@ -903,26 +954,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/server/controllers/admin-information.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/public/css/admin-login.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/admin-main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/admin-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
