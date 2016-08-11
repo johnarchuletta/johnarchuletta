@@ -77,6 +77,17 @@ body {
     body main section.admin-section input[type='submit']:hover, body main section.admin-section input[type='button']:hover {
       color: #fff; }
     body main section.admin-section input[type='file'] {
-      border: none; }
+      position: absolute;
+      display: inline-block;
+      border: none;
+      z-index: -1;
+      margin-left: -82px; }
+    body main section.admin-section label.alt-file-button {
+      background: #1f1f1f;
+      border: 1px solid #464646;
+      padding: 0 15px;
+      cursor: pointer; }
+    body main section.admin-section label.alt-file-button:hover {
+      color: #fff; }
 
 /*# sourceMappingURL=admin-main.css.map */

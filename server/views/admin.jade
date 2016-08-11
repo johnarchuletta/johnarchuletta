@@ -39,7 +39,8 @@ html
                         .col-md-3
                             label(for='blog-new-image') Image
                         .col-md-9
-                            input(type='file', id='blog-new-image', name='image')
+                            label(for='blog-new-image', class='alt-file-button') Select Image
+                                input(type='file', id='blog-new-image', name='image')
                     .row.admin-form-row
                         #blog-new-submit-row.col-md-12.text-right
                             input(type='submit', value='Submit', id='blog-new-submit')
@@ -73,7 +74,8 @@ html
                             .col-md-9
                                 a(href='/uploads/#{post.image}')
                                  img(src='/uploads/#{post.image}', style='max-width: 100%;')
-                                input(type='file', id='blog-new-image-#{post._id}', name='image')
+                                label(for='blog-new-image-#{post._id}', class='alt-file-button') Select New Image
+                                    input(type='file', id='blog-new-image-#{post._id}', name='image')
                                 input(type='hidden', name='image-file' value='#{post.image}')
                         .row.admin-form-row
                             .col-md-12.text-right

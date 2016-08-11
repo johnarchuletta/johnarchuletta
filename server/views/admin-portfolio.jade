@@ -39,7 +39,8 @@ html
                         .col-md-3
                             label(for='portfolio-new-image') Image
                         .col-md-9
-                            input(type='file', id='portfolio-new-image', name='images', multiple='true')
+                            label(for='portfolio-new-image', class='alt-file-button') Select Images
+                                input(type='file', id='portfolio-new-image', name='images', multiple='true')
                     .row.admin-form-row
                         #blog-new-submit-row.col-md-12.text-right
                             input(type='submit', value='Submit', id='portfolio-new-submit')
@@ -74,7 +75,8 @@ html
                                 each image in project.images
                                     a(href='/uploads/#{image}')
                                         img(src='/uploads/#{image}', style='max-width: 100%;')
-                                input(type='file', id='portfolio-new-image-#{project._id}', name='images', multiple='true')
+                                label(for='portfolio-new-image-#{project._id}', class='alt-file-button') Select New Images
+                                    input(type='file', id='portfolio-new-image-#{project._id}', name='images', multiple='true')
                                 input(type='hidden', name='image-filenames' value='#{project.images}')
                         .row.admin-form-row
                             .col-md-12.text-right
