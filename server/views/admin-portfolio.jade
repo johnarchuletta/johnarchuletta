@@ -45,7 +45,7 @@ html
                         #blog-new-submit-row.col-md-12.text-right
                             input(type='submit', value='Submit', id='portfolio-new-submit')
             section.admin-section-spacer
-            each project in projects
+            each project in locals.projects
                 section.blog-edit.admin-section
                     form(id='portfolio-edit-form', method='POST', action='/admin/portfolio/update', enctype='multipart/form-data')
                         .row.admin-form-row

@@ -45,7 +45,7 @@ html
                         #blog-new-submit-row.col-md-12.text-right
                             input(type='submit', value='Submit', id='blog-new-submit')
             section.admin-section-spacer
-            each post in posts
+            each post in locals.posts
                 section.blog-edit.admin-section
                     form(id='blog-edit-form', method='POST', action='/admin/blog/update', enctype='multipart/form-data')
                         .row.admin-form-row
