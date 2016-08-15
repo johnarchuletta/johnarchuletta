@@ -4,4 +4,30 @@ html
     include ./includes/head.jade
     link(rel='stylesheet', href='css/main.css')
   body
-    h1.text-center ...
+    section#jumbotron: .container-fluid: .row: .col-mw
+      .col-md-12
+        p &nbsp;
+    section#fold: .container-fluid: .row: .col-mw
+      .col-md-3
+        article
+          p About
+          p.small-text I'm <span style="color: #e67e22;">John Archuletta</span>, a full-stack JavaScript developer based in Denver, Colorado.
+      .col-md-3
+        article
+          p Portfolio
+      .col-md-3
+        article
+          p Blog
+      .col-md-3
+        article
+          p Contact
+    nav: .container-fluid: .row: .col-mw
+      #logo.col-md-6
+        p.title John Archuletta
+        p.subtitle Full-Stack Web-Developer
+      #navigation.col-md-6.text-right
+        a(href='#').active About
+        a(href='#') Services
+        a(href='#') Portfolio
+        a(href='#') Contact
+        a(href='#') Blog

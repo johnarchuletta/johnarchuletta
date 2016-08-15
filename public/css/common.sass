@@ -1,11 +1,34 @@
 @import 'https://fonts.googleapis.com/css?family=Abel|Roboto:400,700|Roboto+Mono'
 
+a, a:visited, a:focus, a:active
+  color: #c0392b
+a:hover
+  color: #1abc9c
+  text-decoration: none
+  
+//------------------------------------------------------
+
+a.active
+  color: #f1c40f
+  border-bottom: 2px solid #c0392b
+
+.col-mw
+  max-width: 1150px
+  margin: 0 auto
+  
+.small-text
+  font-size: 14px
+  color: #7f8c8d
+  margin: 15px 0 0 0
+
+//------------------------------------------------------
+
 body
   font-family: 'Roboto', sans-serif
-  font-size: 16px
-  color: #303030
-  background: #fff
-  padding: 50px 0 0 0
+  font-size: 18px
+  font-weight: 700
+  margin: 0
+  padding: 0
   h1, h2, h3, h4, h5, h6, p, label, input
     padding: 0
     margin: 0
