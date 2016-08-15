@@ -1,5 +1,5 @@
 module.exports = {
-    get: function (req, res) {
-        res.render('index');
-    }
+  get: function (req, res) {
+    res.render('index');
+  }
 };

@@ -9,20 +9,20 @@ var sessionSecret = process.env.SESSION_SECRET || 'secret';
 var server = express();
 
 var sessionOptions = {
-    secret: sessionSecret,
-    resave: false,
-    saveUninitialized: true,
-    cookie: {
-        maxAge: 60000*60
-    }
+  secret: sessionSecret,
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+    maxAge: 60000 * 60
+  }
 };
 
-fs.stat('./public/uploads', function(err, stats) {
-    if (err) {
-        fs.mkdir('./public/uploads', function(err){
-            if (!err) console.log('Uploads folder created.');
-        });
-    }
+fs.stat('./public/uploads', function (err, stats) {
+  if (err) {
+    fs.mkdir('./public/uploads', function (err) {
+      if (!err) console.log('Uploads folder created.');
+    });
+  }
 });
 
 server.set('view engine', 'jade');
@@ -36,7 +36,7 @@ server.use(bodyParser.urlencoded({extended: true}));
 server.use(require('./middleware.js').logger);
 
 server.listen(port, function () {
-    console.log('Server listening on port:', port)
+  console.log('Server listening on port:', port)
 });
 
 require('./routes.js')(server);

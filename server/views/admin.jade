@@ -1,87 +1,87 @@
 doctype html
 html
-    head
-        include ./includes/head.jade
-        link(rel='stylesheet', href='/css/admin-main.css')
-    body
-        main
-            header.text-center
-                h2 John Archuletta
-                p WEB ADMIN PANEL
-            nav.text-center
-                a(href='#', class='active-section') Blog
-                a(href='/admin/portfolio') Portfolio
-                a(href='/admin/information') Information
-                a(href='/admin/?action=logout') Logout
-            section#blog-new.admin-section
-                form(id='blog-new-form', method='POST', action='/admin/blog/create', enctype='multipart/form-data')
-                    .row.admin-form-row
-                        .col-md-3
-                            label(for='blog-new-title') Title
-                        .col-md-9
-                            input(id='blog-new-title', name='title').form-control
-                    .row.admin-form-row
-                        .col-md-3
-                            label(for='blog-new-date') Date
-                        .col-md-9
-                            input(id='blog-new-date', name='date').form-control
-                    .row.admin-form-row
-                        .col-md-3
-                            label(for='blog-new-keywords') Keywords
-                        .col-md-9
-                            input(id='blog-new-keywords', name='keywords').form-control
-                    .row.admin-form-row
-                        .col-md-3
-                            label(for='blog-new-body') Body
-                        .col-md-9
-                            textarea(id='blog-new-body', name='body', rows='10').form-control
-                    .row.admin-form-row
-                        .col-md-3
-                            label(for='blog-new-image') Image
-                        .col-md-9
-                            label(for='blog-new-image', class='alt-file-button') Select Image
-                                input(type='file', id='blog-new-image', name='image')
-                    .row.admin-form-row
-                        #blog-new-submit-row.col-md-12.text-right
-                            input(type='submit', value='Submit', id='blog-new-submit')
-            section.admin-section-spacer
-            each post in locals.posts
-                section.blog-edit.admin-section
-                    form(id='blog-edit-form', method='POST', action='/admin/blog/update', enctype='multipart/form-data')
-                        .row.admin-form-row
-                            .col-md-3
-                                label(for='blog-edit-title-#{post._id}') Title
-                            .col-md-9
-                                input(id='blog-edit-title-#{post._id}', name='title', value='#{post.title}').form-control
-                        .row.admin-form-row
-                            .col-md-3
-                                label(for='blog-edit-date-#{post._id}') Date
-                            .col-md-9
-                                input(id='blog-edit-date-#{post._id}', name='date', value='#{post.date}').form-control
-                        .row.admin-form-row
-                            .col-md-3
-                                label(for='blog-edit-keywords-#{post._id}') Keywords
-                            .col-md-9
-                                input(id='blog-edit-keywords-#{post._id}', name='keywords', value='#{post.keywords}').form-control
-                        .row.admin-form-row
-                            .col-md-3
-                                label(for='blog-edit-body-#{post._id}') Body
-                            .col-md-9
-                                textarea(id='blog-edit-body-#{post._id}', name='body', rows='10').form-control #{post.body}
-                        .row.admin-form-row
-                            .col-md-3
-                                label(for='blog-new-image-#{post._id}') Image
-                            .col-md-9
-                                a(href='/uploads/#{post.image}')
-                                 img(src='/uploads/#{post.image}', style='max-width: 100%;')
-                                label(for='blog-new-image-#{post._id}', class='alt-file-button') Select New Image
-                                    input(type='file', id='blog-new-image-#{post._id}', name='image')
-                                input(type='hidden', name='image-file' value='#{post.image}')
-                        .row.admin-form-row
-                            .col-md-12.text-right
-                                a(href='admin/blog/delete/#{post._id}') Delete
-                                span &nbsp;&nbsp;&nbsp;&nbsp;
-                                input(type='hidden', name='id' value='#{post.id}')
-                                input(type='submit', value='Update')
-                section.admin-section-spacer
-        script(src='/js/admin-main.js')
+  head
+    include ./includes/head.jade
+    link(rel='stylesheet', href='/css/admin-main.css')
+  body
+    main
+      header.text-center
+        h2 John Archuletta
+        p WEB ADMIN PANEL
+      nav.text-center
+        a(href='#', class='active-section') Blog
+        a(href='/admin/portfolio') Portfolio
+        a(href='/admin/information') Information
+        a(href='/admin/?action=logout') Logout
+      section#blog-new.admin-section
+        form(id='blog-new-form', method='POST', action='/admin/blog/create', enctype='multipart/form-data')
+          .row.admin-form-row
+            .col-md-3
+              label(for='blog-new-title') Title
+            .col-md-9
+              input(id='blog-new-title', name='title').form-control
+          .row.admin-form-row
+            .col-md-3
+              label(for='blog-new-date') Date
+            .col-md-9
+              input(id='blog-new-date', name='date').form-control
+          .row.admin-form-row
+            .col-md-3
+              label(for='blog-new-keywords') Keywords
+            .col-md-9
+              input(id='blog-new-keywords', name='keywords').form-control
+          .row.admin-form-row
+            .col-md-3
+              label(for='blog-new-body') Body
+            .col-md-9
+              textarea(id='blog-new-body', name='body', rows='10').form-control
+          .row.admin-form-row
+            .col-md-3
+              label(for='blog-new-image') Image
+            .col-md-9
+              label(for='blog-new-image', class='alt-file-button') Select Image
+                input(type='file', id='blog-new-image', name='image')
+          .row.admin-form-row
+            #blog-new-submit-row.col-md-12.text-right
+              input(type='submit', value='Submit', id='blog-new-submit')
+      section.admin-section-spacer
+      each post in locals.posts
+        section.blog-edit.admin-section
+          form(id='blog-edit-form', method='POST', action='/admin/blog/update', enctype='multipart/form-data')
+            .row.admin-form-row
+              .col-md-3
+                label(for='blog-edit-title-#{post._id}') Title
+              .col-md-9
+                input(id='blog-edit-title-#{post._id}', name='title', value='#{post.title}').form-control
+            .row.admin-form-row
+              .col-md-3
+                label(for='blog-edit-date-#{post._id}') Date
+              .col-md-9
+                input(id='blog-edit-date-#{post._id}', name='date', value='#{post.date}').form-control
+            .row.admin-form-row
+              .col-md-3
+                label(for='blog-edit-keywords-#{post._id}') Keywords
+              .col-md-9
+                input(id='blog-edit-keywords-#{post._id}', name='keywords', value='#{post.keywords}').form-control
+            .row.admin-form-row
+              .col-md-3
+                label(for='blog-edit-body-#{post._id}') Body
+              .col-md-9
+                textarea(id='blog-edit-body-#{post._id}', name='body', rows='10').form-control #{post.body}
+            .row.admin-form-row
+              .col-md-3
+                label(for='blog-new-image-#{post._id}') Image
+              .col-md-9
+                a(href='/uploads/#{post.image}')
+                  img(src='/uploads/#{post.image}', style='max-width: 100%;')
+                label(for='blog-new-image-#{post._id}', class='alt-file-button') Select New Image
+                  input(type='file', id='blog-new-image-#{post._id}', name='image')
+                input(type='hidden', name='image-file' value='#{post.image}')
+            .row.admin-form-row
+              .col-md-12.text-right
+                a(href='admin/blog/delete/#{post._id}') Delete
+                span &nbsp;&nbsp;&nbsp;&nbsp;
+                input(type='hidden', name='id' value='#{post.id}')
+                input(type='submit', value='Update')
+        section.admin-section-spacer
+    script(src='/js/admin-main.js')

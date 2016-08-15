@@ -6,9 +6,9 @@ var db = mongoose.connection;
 mongoose.connect(url);
 
 db.on('error', function () {
-    console.log('Could not connect to MongoDB.');
+  console.log('Could not connect to MongoDB.');
 });
 
 db.on('open', function () {
-    console.log('Now connected to MongoDB.');
+  console.log('Now connected to MongoDB.');
 });
