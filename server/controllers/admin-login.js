@@ -9,9 +9,8 @@ module.exports = {
         }
     },
     post: function (req, res) {
-        console.log(req.body);
         var action = req.body.action;
-    
+        
         if (action === 'login') {
             var username = req.body.username;
             var password = req.body.password;

@@ -19,17 +19,17 @@ html
                         .col-md-3
                             label(for='portfolio-new-title') Title
                         .col-md-9
-                            input(id='portfolio-new-title', name='title').form-control
+                            input(type='text', id='portfolio-new-title', name='title').form-control
                     .row.admin-form-row
                         .col-md-3
                             label(for='portfolio-new-date') Date
                         .col-md-9
-                            input(id='portfolio-new-date', name='date').form-control
+                            input(type='text', id='portfolio-new-date', name='date').form-control
                     .row.admin-form-row
                         .col-md-3
                             label(for='portfolio-new-keywords') Keywords
                         .col-md-9
-                            input(id='portfolio-new-keywords', name='keywords').form-control
+                            input(type='text', id='portfolio-new-keywords', name='keywords').form-control
                     .row.admin-form-row
                         .col-md-3
                             label(for='portfolio-new-body') Body
@@ -52,17 +52,17 @@ html
                             .col-md-3
                                 label(for='portfolio-edit-title-#{project._id}') Title
                             .col-md-9
-                                input(id='portfolio-edit-title-#{project._id}', name='title', value='#{project.title}').form-control
+                                input(type='text', id='portfolio-edit-title-#{project._id}', name='title', value='#{project.title}').form-control
                         .row.admin-form-row
                             .col-md-3
                                 label(for='portfolio-edit-date-#{project._id}') Date
                             .col-md-9
-                                input(id='portfolio-edit-date-#{project._id}', name='date', value='#{project.date}').form-control
+                                input(type='text', id='portfolio-edit-date-#{project._id}', name='date', value='#{project.date}').form-control
                         .row.admin-form-row
                             .col-md-3
                                 label(for='portfolio-edit-keywords-#{project._id}') Keywords
                             .col-md-9
-                                input(id='portfolio-edit-keywords-#{project._id}', name='keywords', value='#{project.keywords}').form-control
+                                input(type='text', id='portfolio-edit-keywords-#{project._id}', name='keywords', value='#{project.keywords}').form-control
                         .row.admin-form-row
                             .col-md-3
                                 label(for='portfolio-edit-body-#{project._id}') Body
@@ -75,8 +75,10 @@ html
                                 each image in project.images
                                     a(href='/uploads/#{image}')
                                         img(src='/uploads/#{image}', style='max-width: 100%;')
+
                                 label(for='portfolio-new-image-#{project._id}', class='alt-file-button') Select New Images
                                     input(type='file', id='portfolio-new-image-#{project._id}', name='images', multiple='true')
+
                                 input(type='hidden', name='image-filenames' value='#{project.images}')
                         .row.admin-form-row
                             .col-md-12.text-right
