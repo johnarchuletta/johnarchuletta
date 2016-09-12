@@ -21,7 +21,7 @@ a.active {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   margin: 0;
   padding: 0; }
@@ -30,35 +30,37 @@ body {
     margin: 0; }
 
 body {
-  margin-top: 80px;
-  color: #f1c40f;
-  background: #1f1f1f; }
-  body section#jumbotron {
-    height: 75vh; }
-  body section#fold .col-md-3 article {
-    padding: 5px 0 0 0;
-    border-top: 2px solid #2980b9; }
-  body nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 80px;
-    width: 100vw;
-    margin: 0;
-    padding: 0 25px; }
-    body nav #logo p.title {
-      font-size: 25px;
-      margin: 17px 0 0 0;
-      letter-spacing: 0.8px; }
-    body nav #logo p.subtitle {
-      font-size: 12px;
-      color: #c0392b;
-      text-transform: uppercase;
-      margin: -8px 0 0 0;
-      font-family: Roboto Mono; }
-    body nav #navigation {
-      line-height: 80px; }
-      body nav #navigation a {
-        margin: 0 0 0 25px; }
+  color: #fff;
+  background: #917c6f; }
+  body .window {
+    width: 800px;
+    margin: 0 auto;
+    transform: translate(0, 100px); }
+    body .window .titlebar {
+      background-color: #1f1f1f;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      padding: 4px; }
+      body .window .titlebar .titlebar-circle-container {
+        display: inline-block;
+        margin: 3px 0 0 0; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle {
+          display: inline-block;
+          min-height: 12px;
+          min-width: 12px;
+          margin: 0 0 0 4px;
+          border-radius: 6px; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle.red {
+          background-color: #ff2a2a; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle.yellow {
+          background-color: #ffd42a; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle.green {
+          background-color: #71c837; }
+      body .window .titlebar .titlebar-text {
+        display: inline-block;
+        margin: 0 0 0 12px; }
+    body .window .window-content {
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.6); }
 
 /*# sourceMappingURL=main.css.map */
