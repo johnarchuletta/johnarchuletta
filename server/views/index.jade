@@ -14,9 +14,11 @@ html
         .titlebar-text
           span Terminal
       .window-content
-        p Welcome to the personal website of John Archuletta.
-        <br>
-        p Command List:
-        p show portfolio
-        <br>
-        p linux: ~/ |
+        .terminal-output
+        .terminal-input
+          span(style="color: #71E53B") user@linux
+          span(style="color: #FFF") :
+          span(style="color: #7DD6E5") ~
+          span(style="color: #FFF") $&nbsp
+          input(id="terminal-text-input", type="text")
+    script(src="js/f/main.js")
