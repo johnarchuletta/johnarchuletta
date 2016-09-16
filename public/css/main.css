@@ -34,8 +34,9 @@ body {
   background: #5c5c5c; }
   body .window {
     width: 800px;
-    margin: 0 auto;
-    transform: translate(0, 100px); }
+    margin: 100px auto 0 auto;
+    transition: transform 250ms;
+    transform: scale(0); }
     body .window .titlebar {
       background-color: #1f1f1f;
       border-top-left-radius: 5px;
@@ -64,12 +65,13 @@ body {
       overflow: auto;
       padding: 15px;
       color: #e5e5e5;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.45);
       font-family: Roboto Mono;
       font-size: 12px; }
       body .window .window-content input#terminal-text-input {
         background-color: transparent;
         border: none;
-        color: white; }
+        color: white;
+        outline: none; }
 
 /*# sourceMappingURL=main.css.map */
