@@ -11,6 +11,9 @@
       <w>onkeypress</w>
       <w>onload</w>
       <w>onmousedown</w>
+      <w>onmouseleave</w>
+      <w>onmousemove</w>
+      <w>onmouseup</w>
       <w>textbox</w>
       <w>titlebar</w>
     </words>
