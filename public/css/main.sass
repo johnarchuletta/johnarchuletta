@@ -17,6 +17,7 @@ body
       border-top-left-radius: 5px
       border-top-right-radius: 5px
       padding: 4px
+      user-select: none
       .titlebar-circle-container
         display: inline-block
         margin: 3px 0 0 0
@@ -35,6 +36,8 @@ body
       .titlebar-text
         display: inline-block
         margin: 0 0 0 12px
+        user-select: none
+        cursor: default
     .window-content
       height: 400px
       overflow: auto
@@ -43,8 +46,10 @@ body
       background: rgba(0, 0, 0, 0.45)
       font-family: Roboto Mono
       font-size: 12px
-      input#terminal-text-input
-        background-color: transparent
-        border: none
-        color: white
-        outline: none
+      div.terminal-input
+        padding: 0 0 10px 0
+        input#terminal-text-input
+          background-color: transparent
+          border: none
+          color: white
+          outline: none

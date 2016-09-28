@@ -29,6 +29,14 @@ module.exports = function (server) {
   server.post('/admin/blog/update', upload.single('image'), require('./controllers/admin.js').put);
   server.post('/admin/portfolio/update', upload.array('images', 10), require('./controllers/admin-portfolio.js').put);
   
+  server.post('/test', function(req, res) {
+    console.log(req.body.test);
+    var words = ['fuck', 'shit', 'bitch', 'bullshit'];
+    var r = Math.floor(Math.random() * (4 - 0)) + 0;
+    console.log(r);
+    res.send({test: words[r]});
+  });
+  
   server.get('/admin/blog/delete/:id', require('./controllers/admin.js').delete);
   server.get('/admin/portfolio/delete/:id', require('./controllers/admin-portfolio.js').delete);
   

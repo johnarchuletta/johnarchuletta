@@ -44,7 +44,8 @@ body {
       background-color: #1f1f1f;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
-      padding: 4px; }
+      padding: 4px;
+      user-select: none; }
       body .window .titlebar .titlebar-circle-container {
         display: inline-block;
         margin: 3px 0 0 0; }
@@ -62,7 +63,9 @@ body {
           background-color: #71c837; }
       body .window .titlebar .titlebar-text {
         display: inline-block;
-        margin: 0 0 0 12px; }
+        margin: 0 0 0 12px;
+        user-select: none;
+        cursor: default; }
     body .window .window-content {
       height: 400px;
       overflow: auto;
@@ -71,10 +74,12 @@ body {
       background: rgba(0, 0, 0, 0.45);
       font-family: Roboto Mono;
       font-size: 12px; }
-      body .window .window-content input#terminal-text-input {
-        background-color: transparent;
-        border: none;
-        color: white;
-        outline: none; }
+      body .window .window-content div.terminal-input {
+        padding: 0 0 10px 0; }
+        body .window .window-content div.terminal-input input#terminal-text-input {
+          background-color: transparent;
+          border: none;
+          color: white;
+          outline: none; }
 
 /*# sourceMappingURL=main.css.map */

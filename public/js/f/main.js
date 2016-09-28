@@ -19,7 +19,6 @@ window.onload = function() {
     titlebarYPos = evt.clientY - window.offsetTop;
   }
   titlebar.onmouseup = function() {
-    console.log('mouse went up?');
     mouseIsDown = false;
   }
   document.body.onmousemove = function(evt) {
@@ -50,6 +49,23 @@ window.onload = function() {
         case 'cmds':
           output(['Hrmph...']);
           break;
+        case 'test':
+          output(['Sending AJAX request to server...']);
+          var httpRequest = new XMLHttpRequest();
+          httpRequest.onreadystatechange = function() {
+            if (httpRequest.readyState === XMLHttpRequest.DONE) {
+              if (httpRequest.status === 200) {
+                var response = JSON.parse(httpRequest.responseText);
+                output(['Response: ' + response.test]);
+              } else {
+                console.log('error');
+              }
+            }
+          }
+          httpRequest.open('POST', '/test', true);
+          httpRequest.setRequestHeader('Content-Type', 'application/json');
+          httpRequest.send(JSON.stringify({test: 'test'}));
+          break;
         default:
           output(['<span style="color: #E53F3A;">No command \'' + input + '\' found.</span>']);
           break;
@@ -77,10 +93,17 @@ var output = function(lines) {
     
     windowContent.appendChild(newLine);
   }
+  scrollTerminal();
 }
 
 var echoInput = function(input) {
   output([
     '<span style="color: #71E53B;">user@linux</span><span style="color: #FFF;">:</span><span style="color: #7DD6E5">~</span><span style="color: #FFF;">$</span>&nbsp' + input,
   ]);
+  scrollTerminal();
+}
+
+var scrollTerminal = function() {
+  var c = document.querySelector('div.window-content');
+  c.scrollTop = c.scrollHeight;
 }
