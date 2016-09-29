@@ -31,11 +31,12 @@ body {
 
 body {
   color: #fff;
-  background: #5c5c5c; }
+  background: #404040;
+  overflow: hidden; }
   body .window {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 100px;
+    top: 100px;
     width: 800px;
     transition: transform 250ms, opacity 250ms;
     transform: scale(0);
@@ -81,5 +82,12 @@ body {
           border: none;
           color: white;
           outline: none; }
+  body #launcher {
+    background: #232323;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */

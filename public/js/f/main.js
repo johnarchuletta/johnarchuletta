@@ -1,12 +1,14 @@
 window.onload = function() {
   // Store elements in variables.
-  var window = document.querySelector('div.window');
+  var terminal = document.querySelector('div.window');
   var titlebar = document.querySelector('div.window div.titlebar');
   
   // Animate terminal window into view.
   setTimeout(function() {
-    window.style.transform = 'scale(1)';
-    window.style.opacity = '1';
+    terminal.style.left = (window.innerWidth / 2) - (terminal.offsetWidth / 2) + 'px';
+    terminal.style.top = (window.innerHeight / 3) - (terminal.offsetHeight / 2) + 'px';
+    terminal.style.transform = 'scale(1)';
+    terminal.style.opacity = '1';
   }, 1000);
   
   // Make terminal window draggable.
@@ -15,23 +17,23 @@ window.onload = function() {
   var titlebarYPos = 0;
   titlebar.onmousedown = function(evt) {
     mouseIsDown = true;
-    titlebarXPos = evt.clientX - window.offsetLeft;
-    titlebarYPos = evt.clientY - window.offsetTop;
+    titlebarXPos = evt.clientX - terminal.offsetLeft;
+    titlebarYPos = evt.clientY - terminal.offsetTop;
   }
   titlebar.onmouseup = function() {
     mouseIsDown = false;
   }
   document.body.onmousemove = function(evt) {
     if (mouseIsDown) {
-      window.style.left = evt.clientX - titlebarXPos + 'px';
-      window.style.top = evt.clientY - titlebarYPos + 'px';
+      terminal.style.left = evt.clientX - titlebarXPos + 'px';
+      terminal.style.top = evt.clientY - titlebarYPos + 'px';
     }
   }
   
   // Set focus on terminal input line.
   var terminalInput = document.getElementById('terminal-text-input');
   terminalInput.focus();
-  window.onclick = function() { terminalInput.focus(); }
+  terminal.onclick = function() { terminalInput.focus(); }
   terminalInput.onkeypress = function(evt) {
     if (evt.key === 'Enter') {
       var input = this.value;
@@ -79,9 +81,19 @@ window.onload = function() {
     '<span style="color: #707070;">Created using NodeJS, ExpressJS, MongoDB, JavaScript, HTML, and Sass.</span>',
     '<br>For a list of commands, please enter \'cmds\'.<br><br>'
   ]);
+  
+  document.querySelector('.titlebar-circle.yellow').onclick = function() {
+    terminal.style.zIndex = '1000';
+    terminal.style.transformOrigin = 'top left'
+    terminal.style.transition = 'transform 250ms, opacity 250ms, left 250ms, top 250ms';
+    terminal.style.transform = 'scale(.01)';
+    terminal.style.opacity = '0';
+    terminal.style.left = document.querySelector('#terminal-launcher-icon').offsetLeft + 'px';
+    terminal.style.top = document.querySelector('#terminal-launcher-icon').offsetTop + 'px';
+  }
 }
 
-//-                                                                                                                                            .
+//-------------------------------------------------------------------------------------------------------------------------------
 
 var output = function(lines) {
   var windowContent = document.querySelector('div.terminal-output');
