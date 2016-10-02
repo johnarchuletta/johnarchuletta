@@ -4,7 +4,7 @@ var session = require('express-session');
 var fs = require('fs');
 var path = require('path');
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3030;
 var sessionSecret = process.env.SESSION_SECRET || 'secret';
 var server = express();
 
@@ -35,7 +35,7 @@ server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(require('./middleware.js').logger);
 
-server.listen(port, function () {
+server.listen(port, '0.0.0.0', function () {
   console.log('Server listening on port:', port)
 });
 

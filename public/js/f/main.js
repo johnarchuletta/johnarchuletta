@@ -77,7 +77,7 @@ window.onload = function() {
   
   // Print introductory text to terminal window.
   output([
-    'Welcome to the personal website of <span style="color: #DFE300;">John Archuletta!</span>',
+    'Welcome to the personal website of <span style="color: #DFE300;">John Archuletta...</span>',
     '<span style="color: #707070;">Created using NodeJS, ExpressJS, MongoDB, JavaScript, HTML, and Sass.</span>',
     '<br>For a list of commands, please enter \'cmds\'.<br><br>'
   ]);
