@@ -51,17 +51,25 @@ body {
         display: inline-block;
         margin: 3px 0 0 0; }
         body .window .titlebar .titlebar-circle-container .titlebar-circle {
+          background: url(/images/titlebar-circles.png) no-repeat;
           display: inline-block;
-          min-height: 12px;
-          min-width: 12px;
+          height: 12px;
+          width: 12px;
+          font-size: 9px;
           margin: 0 0 0 4px;
-          border-radius: 6px; }
+          cursor: pointer; }
         body .window .titlebar .titlebar-circle-container .titlebar-circle.red {
-          background-color: #ff2a2a; }
+          background-position: 0 0; }
         body .window .titlebar .titlebar-circle-container .titlebar-circle.yellow {
-          background-color: #ffd42a; }
+          background-position: -12px 0; }
         body .window .titlebar .titlebar-circle-container .titlebar-circle.green {
-          background-color: #71c837; }
+          background-position: -24px 0; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle.red:hover {
+          background-position: 0 -12px; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle.yellow:hover {
+          background-position: -12px -12px; }
+        body .window .titlebar .titlebar-circle-container .titlebar-circle.green:hover {
+          background-position: -24px -12px; }
       body .window .titlebar .titlebar-text {
         display: inline-block;
         margin: 0 0 0 12px;
@@ -78,6 +86,8 @@ body {
       body .window .window-content div.terminal-input {
         padding: 0 0 10px 0; }
         body .window .window-content div.terminal-input input#terminal-text-input {
+          font-family: Roboto Mono;
+          font-size: 12px;
           background-color: transparent;
           border: none;
           color: white;

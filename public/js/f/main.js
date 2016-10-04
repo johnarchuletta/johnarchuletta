@@ -51,22 +51,20 @@ window.onload = function() {
         case 'cmds':
           output(['Hrmph...']);
           break;
-        case 'test':
-          output(['Sending AJAX request to server...']);
+        case 'blink':
+          output(['Blinking LED on my desk...']);
           var httpRequest = new XMLHttpRequest();
           httpRequest.onreadystatechange = function() {
             if (httpRequest.readyState === XMLHttpRequest.DONE) {
               if (httpRequest.status === 200) {
-                var response = JSON.parse(httpRequest.responseText);
-                output(['Response: ' + response.test]);
+                output(['LED blinked.']);
               } else {
                 console.log('error');
               }
             }
           }
-          httpRequest.open('POST', '/test', true);
-          httpRequest.setRequestHeader('Content-Type', 'application/json');
-          httpRequest.send(JSON.stringify({test: 'test'}));
+          httpRequest.open('GET', '/blink', true);
+          httpRequest.send();
           break;
         default:
           output(['<span style="color: #E53F3A;">No command \'' + input + '\' found.</span>']);
