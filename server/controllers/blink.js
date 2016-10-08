@@ -2,7 +2,9 @@ var request = require('request');
 
 module.exports = {
   get: function(req, res) {
-    request('http://67.162.136.158:3080/action?type=blink&target=led', function(error, response, body) {
+    var ip = process.env.ARC_PIIP || '10.0.0.6:3080'; // 67.162.136.158:3080
+    console.log(ip);
+    request('http://' + ip + '/action?type=blink&target=led', function(error, response, body) {
       if(!error) {
         res.sendStatus(200);
       } else {

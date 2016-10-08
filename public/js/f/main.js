@@ -80,6 +80,8 @@ window.onload = function() {
     '<br>For a list of commands, please enter \'cmds\'.<br><br>'
   ]);
   
+  
+  // Functionality for Terminal's minimize titlebar button.
   document.querySelector('.titlebar-circle.yellow').onclick = function() {
     terminal.style.zIndex = '1000';
     terminal.style.transformOrigin = 'top left'
@@ -88,6 +90,11 @@ window.onload = function() {
     terminal.style.opacity = '0';
     terminal.style.left = document.querySelector('#terminal-launcher-icon').offsetLeft + 'px';
     terminal.style.top = document.querySelector('#terminal-launcher-icon').offsetTop + 'px';
+  }
+  
+  // Functionality for Terminal's maximize titlebar button.
+  document.querySelector('.titlebar-circle.green').onclick = function() {
+    terminal.style.width = window.innerWidth + 'px';
   }
 }
 
