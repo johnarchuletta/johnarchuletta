@@ -35,7 +35,7 @@ server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
 server.use(require('./middleware.js').logger);
 
-server.listen(port, '0.0.0.0', function () {
+server.listen(port, function () {
   console.log('Server listening on port:', port)
 });
 
