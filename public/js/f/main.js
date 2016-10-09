@@ -49,7 +49,7 @@ window.onload = function() {
           output(['Whoa there, buddy! Calm down!']);
           break;
         case 'cmds':
-          output(['Hrmph...']);
+          output(['"blink": Blinks an LED on my desk.']);
           break;
         case 'blink':
           output(['Blinking LED on my desk...']);
@@ -59,7 +59,7 @@ window.onload = function() {
               if (httpRequest.status === 200) {
                 output(['LED blinked.']);
               } else {
-                console.log('error');
+                output(['Action failed.']);
               }
             }
           }
@@ -95,6 +95,15 @@ window.onload = function() {
   // Functionality for Terminal's maximize titlebar button.
   document.querySelector('.titlebar-circle.green').onclick = function() {
     terminal.style.width = window.innerWidth + 'px';
+  }
+  
+  // Functionality for Terminal's close titlebar button.
+  document.querySelector('.titlebar-circle.red').onclick = function() {
+    terminal.style.transition = 'transform 250ms, opacity 1000ms, left 250ms, top 250ms';
+    terminal.style.opacity = '0';
+    setTimeout(function() {
+      terminal.style.display = 'none';
+    }, 1000)
   }
 }
 

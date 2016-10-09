@@ -25,7 +25,7 @@ fs.stat('./public/uploads', function (err, stats) {
   }
 });
 
-server.set('view engine', 'jade');
+server.set('view engine', 'pug');
 server.set('views', path.join(process.cwd(), 'server/views'));
 
 server.use(session(sessionOptions));
