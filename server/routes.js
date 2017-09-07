@@ -22,17 +22,18 @@ module.exports = function (server) {
   server.get('/admin-login', require('./controllers/admin-login.js').get);
   server.get('/admin/portfolio', require('./controllers/admin-portfolio.js').get);
   server.get('/admin/information', require('./controllers/admin-information.js').get);
-  
+
   server.get('/blink', require('./controllers/blink.js').get);
-  
+  server.get('/api/:cmd', require('./controllers/api.js').get);
+
   server.post('/admin-login', require('./controllers/admin-login.js').post);
   server.post('/admin/blog/create', upload.single('image'), require('./controllers/admin.js').post);
   server.post('/admin/portfolio/create', upload.array('images', 10), require('./controllers/admin-portfolio.js').post);
   server.post('/admin/blog/update', upload.single('image'), require('./controllers/admin.js').put);
   server.post('/admin/portfolio/update', upload.array('images', 10), require('./controllers/admin-portfolio.js').put);
-  
+
   server.get('/admin/blog/delete/:id', require('./controllers/admin.js').delete);
   server.get('/admin/portfolio/delete/:id', require('./controllers/admin-portfolio.js').delete);
-  
+
   server.get('*', require('./controllers/not-found.js').get);
 };
